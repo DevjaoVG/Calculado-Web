@@ -1,0 +1,18 @@
+body {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.calculadora {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.botao {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
