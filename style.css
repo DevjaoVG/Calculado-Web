@@ -1,18 +1,25 @@
 body {
     /* border: 1px solid black; */
+    /* Centralizando conteudo */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /* estilizando */
     height: 100vh;
     background-color: #f4f4f4;
 }
 
+
 .calculadora {
+    /* estilizando */
     border: 1px solid black;
     padding: 10px;
 }
 
+
 .botao {
+    /* Alinhando botoes com gridCollomns  */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }

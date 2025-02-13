@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="ptb-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="calculadora">
-        <input id="display" type="text">
-        <div class="botao">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>0</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- corpo da calculador -->
+        <div class="calculadora">
+
+            <!-- display -->
+            <input id="display" type="text">
+
+            <!-- botoes -->
+            <div class="botao">
+                <button onclick="addAoDisplay('1')">1</button>
+                <button onclick="addAoDisplay('2')">1</button>
+                <button onclick="addAoDisplay('3')">3</button>
+                <button onclick="addAoDisplay('4')">4</button>
+                <button onclick="addAoDisplay('5')">5</button>
+                <button onclick="addAoDisplay('6')">6</button>
+                <button onclick="addAoDisplay('7')">7</button>
+                <button onclick="addAoDisplay('8')">8</button>
+                <button onclick="addAoDisplay('9')">9</button>
+                <button onclick="addAoDisplay('0')">0</button>
+            </div>
+
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+
+        <script src="script.js"></script>
+    </body>
 </html>

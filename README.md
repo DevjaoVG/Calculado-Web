@@ -1,2 +1,2 @@
 # Calculado-Web
-Um pequeno projeto para consolidar o básico de HTML, CSS, JS e logica de prgramação.
+Um pequeno projeto para consolidar alguns conceitos básicos de HTML, CSS, JS e lógica de programação.
