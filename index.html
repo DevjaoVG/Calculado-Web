@@ -9,7 +9,7 @@
     <body>
 
         <!-- corpo da calculador -->
-        <div class="calculadora">
+        <div id="calculadora">
 
             <!-- display -->
             <input id="display" type="text">
@@ -17,15 +17,21 @@
             <!-- botoes -->
             <div class="botao">
                 <button onclick="addAoDisplay('1')">1</button>
-                <button onclick="addAoDisplay('2')">1</button>
+                <button onclick="addAoDisplay('2')">2</button>
                 <button onclick="addAoDisplay('3')">3</button>
+                <button onclick="limpaDisplay()">C</button>
                 <button onclick="addAoDisplay('4')">4</button>
                 <button onclick="addAoDisplay('5')">5</button>
                 <button onclick="addAoDisplay('6')">6</button>
+                <button onclick="addAoDisplay('-')">-</button>
                 <button onclick="addAoDisplay('7')">7</button>
                 <button onclick="addAoDisplay('8')">8</button>
                 <button onclick="addAoDisplay('9')">9</button>
+                <button onclick="addAoDisplay('/')">/</button>
+                <button onclick="addAoDisplay('.')">.</button>
                 <button onclick="addAoDisplay('0')">0</button>
+                <button onclick="addAoDisplay('+')">+</button>
+                <button onclick="addCalculoDisplay()">=</button>
             </div>
 
         </div>

@@ -1,5 +1,4 @@
 body {
-    /* border: 1px solid black; */
     /* Centralizando conteudo */
     display: flex;
     justify-content: center;
@@ -7,19 +6,38 @@ body {
 
     /* estilizando */
     height: 100vh;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(#333e50, #331b3b);
 }
 
 
-.calculadora {
+#calculadora {
     /* estilizando */
-    border: 1px solid black;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #5c6e6e;
+    padding: 2%;
+    width: 50vh;
+    height: 50vh;
+}
+
+#display {
+    /* definindo tamanho */
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    text-align: end;
+    max-height: 12%;
+    min-height: 12%;
 }
 
 
 .botao {
     /* Alinhando botoes com gridCollomns  */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    height: 80%;
+}
+
+
+.botao button {
+    margin: 2%;
 }
